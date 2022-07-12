@@ -1,2 +1,2 @@
 # CNN-clasificador-digitos
-Este repositorio contiene una prueba de una red convolucional para clasificar digitos. Estoy aprendiendo a desarrollar una CNN
+Este repositorio contiene una prueba de una red convolucional para clasificar digitos. Estoy aprendiendo a desarrollar una CNN. Por el dataset manda un mensaje y te lo paso como link de onedrive ya que consta de 17279 imagenes binarias de los digitos de 0 a 9 y github te deja subir de a 100...
