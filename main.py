@@ -97,7 +97,6 @@ def evaluar_modelo(dataX, dataY):
         print('> %.3f' % (acc * 100.0))
 
 
-# run the test harness for evaluating a modelo
 def clasificar_digitos():
     # cargamos dataset
     trainX, trainY, testX, testY = dataset()
