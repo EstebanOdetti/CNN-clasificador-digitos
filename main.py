@@ -84,11 +84,9 @@ def armar_modelo():
 # evaluamos haciendo k-fold
 def evaluar_modelo(dataX, dataY):
     scores, histories = list(), list()
-    # prepare cross validation
     kfold = KFold(5, shuffle=True, random_state=1)
-    # enumerate splits
     for train_ix, test_ix in kfold.split(dataX):
-        # define modelo
+        # definimos modelo
         modelo = armar_modelo()
         # seleccionamos filas para entrenamiento y para test
         trainX, trainY, testX, testY = dataX[train_ix], dataY[train_ix], dataX[test_ix], dataY[test_ix]
